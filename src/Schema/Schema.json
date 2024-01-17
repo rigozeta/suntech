@@ -1,0 +1,29 @@
+{
+    "properties": {
+      "firstName": {
+        "title": "First Name",
+        "type": "string",
+        "minLength": 1,
+        "description": "Your first name"
+      },
+      "lastName": {
+        "title": "Last Name",
+        "type": "string",
+        "minLength": 1,
+        "description": "Your last name"
+      },
+      "birthDay": {
+        "type": "string",
+        "format": "date",
+        "description": "Select your birth date"
+      },
+      "email": {
+        "title": "Email Address",
+        "type": "string",
+        "minLength": 1,
+        "description": "Enter email address",
+        "pattern": "^\\S+@\\S+\\.\\S+$",
+        "format": "email"
+      }
+    }
+  }

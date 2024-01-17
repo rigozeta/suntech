@@ -1,0 +1,26 @@
+{
+    "type": "HorizontalLayout",
+    "elements": [
+      {
+        "type": "VerticalLayout",
+        "elements": [
+          {
+            "type": "Control",
+            "scope": "#/properties/firstName"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/lastName"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/birthDay"
+          },
+          {
+            "type": "Control",
+            "scope": "#/properties/email"
+          }
+        ]
+      }
+    ]
+  }
